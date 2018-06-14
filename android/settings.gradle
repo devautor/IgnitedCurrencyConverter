@@ -1,0 +1,3 @@
+rootProject.name = 'IgnitedCurrencyConverter'
+
+include ':app'
