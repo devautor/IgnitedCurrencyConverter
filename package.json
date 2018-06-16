@@ -1,8 +1,12 @@
 {
   "name": "ignited_currency_converter",
+  "author": {
+    "Kumar Gaurav (devautor)"
+  },
+  "description": "Recreating the Currency Converter React Native app from the free course "React Native Basics: Build a Currency Converter" by Spencer Carli, using Ignite CLI for project structure and boilerplate, Reactotron for debugging, react-native-elements for UI components, and react-router-native for navigation (instead of React Navigation).",
   "version": "0.0.1",
-  "license": "UNLICENSED",
-  "private": true,
+  "license": "MIT",
+  "private": false,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "flow": "flow",
