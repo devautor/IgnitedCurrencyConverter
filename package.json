@@ -1,9 +1,7 @@
 {
   "name": "ignited_currency_converter",
-  "author": {
-    "Kumar Gaurav (devautor)"
-  },
-  "description": "Recreating the Currency Converter React Native app from the free course "React Native Basics: Build a Currency Converter" by Spencer Carli, using Ignite CLI for project structure and boilerplate, Reactotron for debugging, react-native-elements for UI components, and react-router-native for navigation (instead of React Navigation).",
+  "author": "Kumar Gaurav (devautor)",
+  "description": "Recreating the \"Currency Converter\" React Native app from the free course \"React Native Basics: Build a Currency Converter\" by Spencer Carli, using Ignite CLI for project structure and boilerplate, Reactotron for debugging, react-native-elements for UI components, and react-router-native for navigation (instead of React Navigation).",
   "version": "0.0.1",
   "license": "MIT",
   "private": false,
@@ -51,10 +49,10 @@
     "seamless-immutable": "^7.1.3"
   },
   "devDependencies": {
-    "@storybook/addon-storyshots": "^3.4.0",
-    "@storybook/addons": "^3.4.0",
-    "@storybook/channels": "^3.4.0",
-    "@storybook/react-native": "^3.4.0",
+    "@storybook/addon-storyshots": "^3.4.7",
+    "@storybook/addons": "^3.4.7",
+    "@storybook/channels": "^3.4.7",
+    "@storybook/react-native": "^3.4.7",
     "babel-cli": "^6.26.0",
     "babel-core": "6.26.0",
     "babel-eslint": "^8.2.3",
@@ -67,6 +65,8 @@
     "enzyme-adapter-react-16": "^1.1.0",
     "eslint": "^4.19.1",
     "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-react": "^7.9.1",
     "eslint-plugin-react-native": "^3.2.1",
@@ -76,7 +76,7 @@
     "jest": "23.1.0",
     "mockery": "^2.1.0",
     "prettier": "^1.13.5",
-    "react-dom": "16.3.0",
+    "react-dom": "^16.3.0",
     "react-test-renderer": "^16.3.1",
     "reactotron-react-native": "^2.0.0-beta.6",
     "reactotron-redux": "^2.0.0-beta.6",

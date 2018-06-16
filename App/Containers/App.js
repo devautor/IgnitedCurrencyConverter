@@ -1,13 +1,13 @@
 import "../Config";
 import DebugConfig from "../Config/DebugConfig";
 import React, { Component } from "react";
-import { Provider } from "react-redux";
 import RootContainer from "./RootContainer";
-import createStore from "../Redux";
+// import { Provider } from "react-redux";
+// import createStore from "../Redux";
 import Reactotron from "reactotron-react-native";
 
 // create our store
-const store = createStore();
+// const store = createStore();
 
 /**
  * Provides an entry point into our application.  Both index.ios.js and index.android.js
@@ -20,12 +20,8 @@ const store = createStore();
  */
 class App extends Component {
   render() {
-    Reactotron.log("hello rendering world");
-    return (
-      <Provider store={store}>
-        <RootContainer />
-      </Provider>
-    );
+    Reactotron.log("Containers/App.js: hello rendering world");
+    return <RootContainer />;
   }
 }
 
