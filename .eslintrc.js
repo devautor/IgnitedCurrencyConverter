@@ -1,6 +1,7 @@
 module.exports = {
   env: {
     browser: true,
+    node: true,
     es6: true,
     "react-native/react-native": true
   },
@@ -12,15 +13,19 @@ module.exports = {
   ],
   parser: "babel-eslint",
   parserOptions: {
+    ecmaVersion: 6,
     ecmaFeatures: {
+      blockBindings: true,
       experimentalObjectRestSpread: true,
       jsx: true,
       modules: true
     },
-    sourceType: "module"
+    sourceType: "module",
+    codeFrame: false
   },
   plugins: ["react", "react-native", "prettier", "jsx-a11y", "import"],
   rules: {
+    strict: 0,
     indent: ["error", 2],
     "linebreak-style": 0,
     quotes: ["error", "double"],

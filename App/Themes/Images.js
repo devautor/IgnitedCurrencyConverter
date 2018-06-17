@@ -1,5 +1,6 @@
 // leave off @2x/@3x
 const images = {
+  ccLogo: require("../Images/cc-logo.png"),
   logo: require("../Images/ir.png"),
   clearLogo: require("../Images/top_logo.png"),
   launch: require("../Images/launch-icon.png"),
@@ -7,7 +8,7 @@ const images = {
   ignite: require("../Images/ignite_logo.png"),
   igniteClear: require("../Images/ignite-logo-transparent.png"),
   tileBg: require("../Images/tile_bg.png"),
-  background: require("../Images/BG.png"),
+  background: require("../Images/background.png"),
   buttonBackground: require("../Images/button-bg.png"),
   api: require("../Images/Icons/icon-api-testing.png"),
   components: require("../Images/Icons/icon-components.png"),
